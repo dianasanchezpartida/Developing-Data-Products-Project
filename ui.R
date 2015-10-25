@@ -1,6 +1,5 @@
 ui.R
 
-
 # This is the user-interface definition of a Shiny web application.
 
 library(shiny)
@@ -42,7 +41,6 @@ shinyUI(
                         ),
                         
 
-                        
                         # Data 
                         tabPanel(p(icon("table"), "Data"),
                             dataTableOutput(outputId="table"),
